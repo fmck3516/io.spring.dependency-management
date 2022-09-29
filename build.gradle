@@ -1,0 +1,17 @@
+plugins {
+    id 'org.springframework.boot' version '2.6.12'
+    id 'io.spring.dependency-management' version '1.0.14.RELEASE'
+    id 'java'
+}
+
+group = 'com.example'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '17'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.optimizely.ab:core-httpclient-impl:3.10.2'
+}
